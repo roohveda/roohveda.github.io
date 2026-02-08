@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f9f8f6"/>
+  
+  <!-- Decorative border -->
+  <rect x="30" y="30" width="340" height="440" fill="none" stroke="#8b6f47" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <!-- Head circle placeholder -->
+  <circle cx="200" cy="120" r="50" fill="#e8e8e8" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Body shape placeholder -->
+  <ellipse cx="200" cy="300" rx="60" ry="80" fill="#e8e8e8" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Text label -->
+  <text x="200" y="450" font-family="'Inter', sans-serif" font-size="18" text-anchor="middle" fill="#8b6f47" font-weight="500">
+    Profile Picture
+  </text>
+  <text x="200" y="475" font-family="'Inter', sans-serif" font-size="14" text-anchor="middle" fill="#999">
+    Upload Dr. Roohi's image here
+  </text>
+</svg>
