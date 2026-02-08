@@ -1,30 +1,51 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle -->
-  <circle cx="100" cy="100" r="95" fill="none" stroke="#6b3f2a" stroke-width="2" opacity="0.1"/>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    RoohVeda Logo: Panchatattva Community Representation
+    Five elements as connected dots forming a circle, inspired by Ubuntu logo concept
+    - Aakash (Sky): Blue dot at top
+    - Agni (Fire): Red/Orange dot at top-right
+    - Prithvi (Earth): Brown dot at bottom-right
+    - Jal (Water): Teal/Green dot at bottom-left
+    - Vayu (Air): Purple dot at left
+    Central circle represents harmony and unity
+  -->
   
-  <!-- Central lotus-inspired shape representing body-mind-soul integration -->
-  <g transform="translate(100, 100)">
-    <!-- Outer petals (soul/spiritual) -->
-    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(0)"/>
-    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(72)"/>
-    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(144)"/>
-    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(216)"/>
-    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(288)"/>
-    
-    <!-- Middle petals (mind/emotional) -->
-    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(36)"/>
-    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(108)"/>
-    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(180)"/>
-    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(252)"/>
-    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(324)"/>
-    
-    <!-- Heart at center (body/physical) -->
-    <path d="M 0,-8 C -8,-16 -16,-16 -16,-8 C -16,0 0,16 0,16 C 0,16 16,0 16,-8 C 16,-16 8,-16 0,-8 Z" fill="#6b3f2a"/>
-    
-    <!-- Inner circle representing wholeness -->
-    <circle cx="0" cy="0" r="6" fill="#f9f8f6"/>
+  <!-- Background (optional subtle gradient base) -->
+  <defs>
+    <radialGradient id="centerGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f5f1ed;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#f5f1ed;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Subtle gradient background -->
+  <circle cx="60" cy="60" r="58" fill="url(#centerGradient)" />
+  
+  <!-- Central circle (harmony/unity) -->
+  <circle cx="60" cy="60" r="16" fill="#6b3f2a" opacity="0.8" />
+  
+  <!-- Five element dots arranged in a circle -->
+  <!-- Aakash (Sky) - Top - Blue -->
+  <circle cx="60" cy="25" r="10" fill="#4a90e2" />
+  
+  <!-- Agni (Fire) - Top-Right - Orange/Red -->
+  <circle cx="87" cy="37" r="10" fill="#e85d3f" />
+  
+  <!-- Prithvi (Earth) - Bottom-Right - Brown -->
+  <circle cx="82" cy="75" r="10" fill="#8b6f47" />
+  
+  <!-- Jal (Water) - Bottom-Left - Teal -->
+  <circle cx="38" cy="82" r="10" fill="#4db8ac" />
+  
+  <!-- Vayu (Air) - Left - Purple -->
+  <circle cx="20" cy="55" r="10" fill="#7b68a6" />
+  
+  <!-- Subtle connecting lines (very light) to suggest community/connection -->
+  <g stroke="#d4c5b9" stroke-width="1.5" opacity="0.4" fill="none">
+    <line x1="60" y1="60" x2="60" y2="25" />
+    <line x1="60" y1="60" x2="87" y2="37" />
+    <line x1="60" y1="60" x2="82" y2="75" />
+    <line x1="60" y1="60" x2="38" y2="82" />
+    <line x1="60" y1="60" x2="20" y2="55" />
   </g>
-  
-  <!-- Text -->
-  <text x="100" y="170" font-family="'Playfair Display', serif" font-size="20" font-weight="600" text-anchor="middle" fill="#6b3f2a">RoohVeda</text>
 </svg>
