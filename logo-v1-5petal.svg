@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo v1: Classic 5-petal lotus (simplified) -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#6b3f2a" stroke-width="1.5" opacity="0.1"/>
+  <g transform="translate(100, 100)">
+    <ellipse cx="0" cy="-40" rx="16" ry="32" fill="#8b6f47" opacity="0.5" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-40" rx="16" ry="32" fill="#8b6f47" opacity="0.5" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-40" rx="16" ry="32" fill="#8b6f47" opacity="0.5" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-40" rx="16" ry="32" fill="#8b6f47" opacity="0.5" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-40" rx="16" ry="32" fill="#8b6f47" opacity="0.5" transform="rotate(288)"/>
+    <path d="M 0,-8 C -8,-16 -16,-16 -16,-8 C -16,0 0,16 0,16 C 0,16 16,0 16,-8 C 16,-16 8,-16 0,-8 Z" fill="#6b3f2a"/>
+    <circle cx="0" cy="0" r="5" fill="#f9f8f6"/>
+  </g>
+</svg>

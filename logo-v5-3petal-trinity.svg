@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo v5: 3-petal trinity design -->
+  <g transform="translate(100, 100)">
+    <ellipse cx="0" cy="-38" rx="14" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-38" rx="14" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-38" rx="14" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(240)"/>
+    <path d="M 0,-8 C -8,-16 -16,-16 -16,-8 C -16,0 0,16 0,16 C 0,16 16,0 16,-8 C 16,-16 8,-16 0,-8 Z" fill="#6b3f2a"/>
+    <circle cx="0" cy="0" r="4" fill="#f9f8f6"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo v7: Abstract spiral/organic -->
+  <g transform="translate(100, 100)">
+    <path d="M 0,-40 Q 28,-28 28,0 Q 0,28 -28,0 Q -28,-28 0,-40" fill="#8b6f47" opacity="0.4"/>
+    <path d="M 15,-35 Q 35,-20 35,10 Q 10,35 -15,15 Q -25,-15 15,-35" fill="#8b6f47" opacity="0.3"/>
+    <path d="M -20,-30 Q -40,-10 -30,25 Q 0,40 25,20 Q 30,-10 -20,-30" fill="#8b6f47" opacity="0.2"/>
+    <path d="M 0,-8 C -8,-16 -16,-16 -16,-8 C -16,0 0,16 0,16 C 0,16 16,0 16,-8 C 16,-16 8,-16 0,-8 Z" fill="#6b3f2a"/>
+    <circle cx="0" cy="0" r="4" fill="#f9f8f6"/>
+  </g>
+</svg>

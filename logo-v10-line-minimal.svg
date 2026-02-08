@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo v10: Minimalist line-based 5 petals -->
+  <g transform="translate(100, 100)">
+    <path d="M 0,-40 Q -15,-20 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 0,-40 Q 15,-20 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 38,-12 Q 20,-10 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 12,-38 Q 25,-20 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M -12,-38 Q -25,-20 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M -38,-12 Q -20,-10 0,0" stroke="#8b6f47" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="0" cy="0" r="12" fill="#f9f8f6" opacity="0.9"/>
+    <path d="M 0,-5 C -5,-10 -10,-10 -10,-5 C -10,0 0,10 0,10 C 0,10 10,0 10,-5 C 10,-10 5,-10 0,-5 Z" fill="#6b3f2a"/>
+  </g>
+</svg>

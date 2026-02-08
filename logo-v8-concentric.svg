@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo v8: Concentric circles with heart -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#8b6f47" stroke-width="3" opacity="0.4"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#8b6f47" stroke-width="2" opacity="0.3"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#8b6f47" stroke-width="2" opacity="0.2"/>
+    <path d="M 0,-12 C -10,-20 -20,-20 -20,-12 C -20,0 0,24 0,24 C 0,24 20,0 20,-12 C 20,-20 10,-20 0,-12 Z" fill="#6b3f2a"/>
+    <circle cx="0" cy="0" r="3" fill="#f9f8f6"/>
+  </g>
+</svg>
