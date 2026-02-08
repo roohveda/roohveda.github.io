@@ -1,0 +1,20 @@
+/* Base styles for RoohVeda static site */
+:root{
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --accent:#6b3f2a;
+}
+html,body{height:100%;margin:0;font-family:var(--font-sans);color:#111;background:#fff}
+.hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;background-color:#f5f1ee;background-image:url('../images/hero.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
+.hero .hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}
+.hero .overlay{position:absolute;inset:0;background:rgba(0,0,0,0.25);z-index:2}
+.hero .content{position:relative;z-index:3;text-align:center;color:#fff;padding:2rem}
+.hero h1{font-family:var(--font-serif);font-weight:600;font-size:clamp(2rem,4vw,3.5rem);margin:0 0 .5rem}
+.hero p{margin:0 0 1.25rem;opacity:.95}
+.cta{display:inline-block;padding:.75rem 1.25rem;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px}
+
+/* Responsive constraints */
+@media (max-width:600px){
+  .hero{min-height:50vh}
+  .hero h1{font-size:2rem}
+}
