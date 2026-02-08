@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Favicon version - icon only -->
+  <circle cx="100" cy="100" r="98" fill="#f9f8f6"/>
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#6b3f2a" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Central lotus-inspired shape -->
+  <g transform="translate(100, 100)">
+    <!-- Outer petals -->
+    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-45" rx="18" ry="35" fill="#8b6f47" opacity="0.3" transform="rotate(288)"/>
+    
+    <!-- Middle petals -->
+    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(36)"/>
+    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(108)"/>
+    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(252)"/>
+    <ellipse cx="0" cy="-35" rx="15" ry="28" fill="#8b6f47" opacity="0.6" transform="rotate(324)"/>
+    
+    <!-- Heart at center -->
+    <path d="M 0,-8 C -8,-16 -16,-16 -16,-8 C -16,0 0,16 0,16 C 0,16 16,0 16,-8 C 16,-16 8,-16 0,-8 Z" fill="#6b3f2a"/>
+    
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="6" fill="#f9f8f6"/>
+  </g>
+</svg>
