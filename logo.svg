@@ -1,71 +1,80 @@
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- RoohVeda Logo: Organic Lotus Flower - Wholeness & Natural Growth -->
+  <!-- RoohVeda Logo: Caring Hands - Inspired by LIC Logo -->
+  <!-- Two hands cupping wellness and wholeness -->
+  
   <defs>
-    <radialGradient id="lotusGlow" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" style="stop-color:#f5f1ed;stop-opacity:0.4" />
+    <radialGradient id="healingGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" style="stop-color:#f5f1ed;stop-opacity:0.3" />
       <stop offset="100%" style="stop-color:#f5f1ed;stop-opacity:0" />
     </radialGradient>
   </defs>
   
-  <!-- Outer petals (8) - representing opening and growth -->
-  <!-- Petal 1 (top) -->
-  <path d="M 100,40 Q 85,50 80,70 Q 75,90 85,100 Q 100,105 100,100 Q 100,85 105,70 Q 110,50 100,40" fill="#8b6f47" opacity="0.7"/>
+  <!-- Subtle glow background -->
+  <circle cx="100" cy="100" r="95" fill="url(#healingGlow)" />
   
-  <!-- Petal 2 (top-right) -->
-  <path d="M 130,50 Q 125,60 120,80 Q 115,100 130,110 Q 145,110 145,95 Q 145,75 140,60 Q 135,50 130,50" fill="#a8814c" opacity="0.7"/>
+  <!-- Left hand -->
+  <g transform="translate(50, 90)">
+    <!-- Left palm - curved upward -->
+    <path d="M 25,35 Q 15,30 8,35 Q 5,40 8,50 Q 12,55 25,55 Q 32,52 35,45 Q 35,38 25,35" 
+          fill="#8b6f47" opacity="0.85" stroke="#6b3f2a" stroke-width="0.5"/>
+    
+    <!-- Left fingers -->
+    <!-- Thumb -->
+    <ellipse cx="12" cy="35" rx="4" ry="7" fill="#8b6f47" opacity="0.85" transform="rotate(-25 12 35)"/>
+    
+    <!-- Index finger -->
+    <ellipse cx="18" cy="28" rx="4" ry="9" fill="#8b6f47" opacity="0.85" transform="rotate(-35 18 28)"/>
+    
+    <!-- Middle finger -->
+    <ellipse cx="25" cy="25" rx="4" ry="10" fill="#8b6f47" opacity="0.85" transform="rotate(-40 25 25)"/>
+    
+    <!-- Ring finger -->
+    <ellipse cx="32" cy="28" rx="4" ry="9" fill="#8b6f47" opacity="0.85" transform="rotate(-30 32 28)"/>
+    
+    <!-- Pinky finger -->
+    <ellipse cx="38" cy="33" rx="3.5" ry="8" fill="#8b6f47" opacity="0.85" transform="rotate(-20 38 33)"/>
+    
+    <!-- Palm wrinkles for texture -->
+    <path d="M 18,45 Q 22,48 28,47" stroke="#6b3f2a" stroke-width="0.8" fill="none" opacity="0.4"/>
+    <path d="M 20,50 Q 25,52 32,51" stroke="#6b3f2a" stroke-width="0.8" fill="none" opacity="0.4"/>
+  </g>
   
-  <!-- Petal 3 (right) -->
-  <path d="M 160,100 Q 150,105 130,105 Q 110,105 115,120 Q 130,135 145,130 Q 160,125 165,110 Q 168,105 160,100" fill="#8b6f47" opacity="0.7"/>
+  <!-- Right hand -->
+  <g transform="translate(120, 90) scale(-1, 1)">
+    <!-- Right palm - curved upward -->
+    <path d="M 25,35 Q 15,30 8,35 Q 5,40 8,50 Q 12,55 25,55 Q 32,52 35,45 Q 35,38 25,35" 
+          fill="#a8814c" opacity="0.85" stroke="#6b3f2a" stroke-width="0.5"/>
+    
+    <!-- Right fingers -->
+    <!-- Thumb -->
+    <ellipse cx="12" cy="35" rx="4" ry="7" fill="#a8814c" opacity="0.85" transform="rotate(-25 12 35)"/>
+    
+    <!-- Index finger -->
+    <ellipse cx="18" cy="28" rx="4" ry="9" fill="#a8814c" opacity="0.85" transform="rotate(-35 18 28)"/>
+    
+    <!-- Middle finger -->
+    <ellipse cx="25" cy="25" rx="4" ry="10" fill="#a8814c" opacity="0.85" transform="rotate(-40 25 25)"/>
+    
+    <!-- Ring finger -->
+    <ellipse cx="32" cy="28" rx="4" ry="9" fill="#a8814c" opacity="0.85" transform="rotate(-30 32 28)"/>
+    
+    <!-- Pinky finger -->
+    <ellipse cx="38" cy="33" rx="3.5" ry="8" fill="#a8814c" opacity="0.85" transform="rotate(-20 38 33)"/>
+    
+    <!-- Palm wrinkles for texture -->
+    <path d="M 18,45 Q 22,48 28,47" stroke="#6b3f2a" stroke-width="0.8" fill="none" opacity="0.4"/>
+    <path d="M 20,50 Q 25,52 32,51" stroke="#6b3f2a" stroke-width="0.8" fill="none" opacity="0.4"/>
+  </g>
   
-  <!-- Petal 4 (bottom-right) -->
-  <path d="M 130,150 Q 135,140 140,120 Q 145,100 130,90 Q 115,90 115,105 Q 115,125 125,140 Q 130,150 130,150" fill="#a8814c" opacity="0.7"/>
-  
-  <!-- Petal 5 (bottom) -->
-  <path d="M 100,160 Q 115,150 120,130 Q 125,110 115,100 Q 100,95 100,100 Q 100,115 95,130 Q 90,150 100,160" fill="#8b6f47" opacity="0.7"/>
-  
-  <!-- Petal 6 (bottom-left) -->
-  <path d="M 70,150 Q 65,140 60,120 Q 55,100 70,90 Q 85,90 85,105 Q 85,125 75,140 Q 70,150 70,150" fill="#a8814c" opacity="0.7"/>
-  
-  <!-- Petal 7 (left) -->
-  <path d="M 40,100 Q 50,105 70,105 Q 90,105 85,120 Q 70,135 55,130 Q 40,125 35,110 Q 32,105 40,100" fill="#8b6f47" opacity="0.7"/>
-  
-  <!-- Petal 8 (top-left) -->
-  <path d="M 70,50 Q 75,60 80,80 Q 85,100 70,110 Q 55,110 55,95 Q 55,75 60,60 Q 65,50 70,50" fill="#a8814c" opacity="0.7"/>
-  
-  <!-- Inner petals (8) - second layer for depth -->
-  <!-- Inner petal 1 -->
-  <path d="M 100,65 Q 90,72 87,85 Q 85,95 95,100 Q 100,98 100,90 Q 102,78 100,65" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 2 -->
-  <path d="M 125,75 Q 120,82 115,93 Q 112,100 125,105 Q 130,100 130,90 Q 128,80 125,75" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 3 -->
-  <path d="M 135,100 Q 128,103 115,102 Q 105,100 110,110 Q 120,115 132,110 Q 138,107 135,100" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 4 -->
-  <path d="M 125,125 Q 128,118 133,107 Q 138,100 125,95 Q 120,100 120,110 Q 122,120 125,125" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 5 -->
-  <path d="M 100,135 Q 110,128 113,115 Q 115,105 105,100 Q 100,102 100,110 Q 98,122 100,135" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 6 -->
-  <path d="M 75,125 Q 72,118 67,107 Q 62,100 75,95 Q 80,100 80,110 Q 78,120 75,125" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 7 -->
-  <path d="M 65,100 Q 72,103 85,102 Q 95,100 90,110 Q 80,115 68,110 Q 62,107 65,100" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Inner petal 8 -->
-  <path d="M 75,75 Q 80,82 85,93 Q 88,100 75,105 Q 70,100 70,90 Q 72,80 75,75" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Center stamen - represents the heart/seed of wholeness -->
-  <circle cx="100" cy="100" r="12" fill="#6b3f2a" opacity="0.9"/>
-  
-  <!-- Inner glow -->
-  <circle cx="100" cy="100" r="8" fill="#8b6f47" opacity="0.5"/>
-  
-  <!-- Center dot - unity point -->
-  <circle cx="100" cy="100" r="4" fill="#f9f8f6" opacity="0.8"/>
-  
-  <!-- Subtle glow around entire lotus -->
-  <circle cx="100" cy="100" r="95" fill="url(#lotusGlow)" />
+  <!-- Center held element - lotus seed or flame representing wholeness -->
+  <g transform="translate(100, 85)">
+    <!-- Outer flame/lotus petals (stylized) -->
+    <path d="M 0,-15 Q -5,-8 -4,0 Q -2,5 0,8 Q 2,5 4,0 Q 5,-8 0,-15" fill="#e85d3f" opacity="0.8"/>
+    <path d="M -8,-8 Q -10,-2 -8,3 Q -4,8 0,8 Q -2,4 -6,-2 Q -8,-6 -8,-8" fill="#d4794a" opacity="0.7"/>
+    <path d="M 8,-8 Q 10,-2 8,3 Q 4,8 0,8 Q 2,4 6,-2 Q 8,-6 8,-8" fill="#d4794a" opacity="0.7"/>
+    
+    <!-- Inner core - wholeness -->
+    <circle cx="0" cy="2" r="3" fill="#6b3f2a" opacity="0.9"/>
+    <circle cx="0" cy="2" r="1.5" fill="#f9f8f6" opacity="0.7"/>
+  </g>
 </svg>

@@ -1,43 +1,46 @@
 <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Favicon: Simplified Organic Lotus Mark -->
+  <!-- Favicon: Caring Hands Mark - LIC Inspired -->
   <defs>
-    <radialGradient id="faviconLotusGlow" cx="50%" cy="40%" r="50%">
+    <radialGradient id="faviconHandGlow" cx="50%" cy="40%" r="50%">
       <stop offset="0%" style="stop-color:#f5f1ed;stop-opacity:0.3" />
       <stop offset="100%" style="stop-color:#f5f1ed;stop-opacity:0" />
     </radialGradient>
   </defs>
   
   <!-- Background glow -->
-  <circle cx="60" cy="60" r="58" fill="url(#faviconLotusGlow)" />
+  <circle cx="60" cy="60" r="58" fill="url(#faviconHandGlow)" />
   
-  <!-- Outer petals (6) - simplified for small icon -->
-  <!-- Petal top -->
-  <path d="M 60,20 Q 50,35 50,50 Q 50,60 60,62 Q 70,60 70,50 Q 70,35 60,20" fill="#8b6f47" opacity="0.75"/>
+  <!-- Left hand (simplified) -->
+  <g transform="translate(25, 50)">
+    <!-- Palm -->
+    <path d="M 15,20 Q 8,18 5,22 Q 3,26 5,32 Q 10,36 18,33 Q 20,28 15,20" 
+          fill="#8b6f47" opacity="0.85" stroke="#6b3f2a" stroke-width="0.3"/>
+    
+    <!-- Fingers (simplified) -->
+    <ellipse cx="10" cy="18" rx="2" ry="5" fill="#8b6f47" opacity="0.85" transform="rotate(-20 10 18)"/>
+    <ellipse cx="15" cy="15" rx="2" ry="6" fill="#8b6f47" opacity="0.85" transform="rotate(-25 15 15)"/>
+    <ellipse cx="19" cy="18" rx="2" ry="5" fill="#8b6f47" opacity="0.85" transform="rotate(-15 19 18)"/>
+  </g>
   
-  <!-- Petal top-right -->
-  <path d="M 85,35 Q 85,45 78,58 Q 70,65 63,62 Q 65,52 75,40 Q 82,32 85,35" fill="#a8814c" opacity="0.75"/>
+  <!-- Right hand (simplified, mirrored) -->
+  <g transform="translate(75, 50) scale(-1, 1)">
+    <!-- Palm -->
+    <path d="M 15,20 Q 8,18 5,22 Q 3,26 5,32 Q 10,36 18,33 Q 20,28 15,20" 
+          fill="#a8814c" opacity="0.85" stroke="#6b3f2a" stroke-width="0.3"/>
+    
+    <!-- Fingers (simplified) -->
+    <ellipse cx="10" cy="18" rx="2" ry="5" fill="#a8814c" opacity="0.85" transform="rotate(-20 10 18)"/>
+    <ellipse cx="15" cy="15" rx="2" ry="6" fill="#a8814c" opacity="0.85" transform="rotate(-25 15 15)"/>
+    <ellipse cx="19" cy="18" rx="2" ry="5" fill="#a8814c" opacity="0.85" transform="rotate(-15 19 18)"/>
+  </g>
   
-  <!-- Petal bottom-right -->
-  <path d="M 80,85 Q 75,75 70,62 Q 65,55 70,58 Q 78,70 85,90 Q 85,88 80,85" fill="#8b6f47" opacity="0.75"/>
-  
-  <!-- Petal bottom -->
-  <path d="M 60,100 Q 70,85 70,70 Q 70,60 60,58 Q 50,60 50,70 Q 50,85 60,100" fill="#a8814c" opacity="0.75"/>
-  
-  <!-- Petal bottom-left -->
-  <path d="M 40,85 Q 45,75 50,62 Q 55,55 50,58 Q 42,70 35,90 Q 35,88 40,85" fill="#8b6f47" opacity="0.75"/>
-  
-  <!-- Petal top-left -->
-  <path d="M 35,35 Q 35,45 42,58 Q 50,65 57,62 Q 55,52 45,40 Q 38,32 35,35" fill="#a8814c" opacity="0.75"/>
-  
-  <!-- Inner petals (small, for depth) -->
-  <path d="M 60,40 Q 52,48 52,56 Q 52,60 60,61 Q 68,60 68,56 Q 68,48 60,40" fill="#c9a876" opacity="0.6"/>
-  <path d="M 75,50 Q 72,55 67,59 Q 63,60 65,56 Q 70,50 75,50" fill="#c9a876" opacity="0.6"/>
-  <path d="M 60,75 Q 68,68 68,60 Q 68,56 60,55 Q 52,56 52,60 Q 52,68 60,75" fill="#c9a876" opacity="0.6"/>
-  <path d="M 45,50 Q 48,55 53,59 Q 57,60 55,56 Q 50,50 45,50" fill="#c9a876" opacity="0.6"/>
-  
-  <!-- Center stamen -->
-  <circle cx="60" cy="60" r="7" fill="#6b3f2a" opacity="0.9"/>
-  
-  <!-- Center dot -->
-  <circle cx="60" cy="60" r="3" fill="#f9f8f6" opacity="0.8"/>
+  <!-- Center held element - flame -->
+  <g transform="translate(60, 50)">
+    <!-- Flame -->
+    <path d="M 0,-8 Q -3,-5 -2,0 Q 0,4 2,0 Q 3,-5 0,-8" fill="#e85d3f" opacity="0.8"/>
+    <path d="M -3,-3 Q -4,0 -2,3 Q 0,4 2,3 Q 2,0 1,-2" fill="#d4794a" opacity="0.7"/>
+    
+    <!-- Core -->
+    <circle cx="0" cy="1" r="1.5" fill="#6b3f2a" opacity="0.9"/>
+  </g>
 </svg>
