@@ -326,6 +326,14 @@ html, body {
   color: var(--primary);
 }
 
+/* Doctor Grid */
+.doctor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .header .container {
@@ -353,6 +361,19 @@ html, body {
 
   .resource-grid {
     grid-template-columns: 1fr;
+  }
+
+  .doctor-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .doctor-grid > div:first-child {
+    order: 1 !important;
+  }
+
+  .doctor-grid > div:last-child {
+    order: 2 !important;
   }
 
   .newsletter-form {
