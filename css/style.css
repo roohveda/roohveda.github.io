@@ -333,8 +333,6 @@ html, body {
   gap: 3rem;
   align-items: center;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .header .container {
     flex-direction: column;
@@ -366,14 +364,6 @@ html, body {
   .doctor-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-
-  .doctor-grid > div:first-child {
-    order: 1 !important;
-  }
-
-  .doctor-grid > div:last-child {
-    order: 2 !important;
   }
 
   .newsletter-form {
