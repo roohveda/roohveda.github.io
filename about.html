@@ -131,10 +131,11 @@
     <div class="container">
       <h2 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 2rem; font-weight: 600;">Join Our Community</h2>
       <div style="max-width: 500px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.15);">
-        <form style="display: flex; flex-direction: column; gap: 1.5rem;">
-          <input type="text" placeholder="First Name" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
-          <input type="text" placeholder="Last Name" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
-          <input type="email" placeholder="Email Address" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
+        <form id="about-newsletter" style="display: flex; flex-direction: column; gap: 1.5rem;" action="https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID" method="POST">
+          <input type="text" name="first_name" placeholder="First Name" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
+          <input type="text" name="last_name" placeholder="Last Name" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
+          <input type="email" name="email" placeholder="Email Address" style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: var(--font-sans);" required>
+          <div id="about-newsletter-message" style="display: none; padding: 0.75rem; border-radius: 6px; font-weight: 500; text-align: center;"></div>
           <button type="submit" style="padding: 0.875rem 1.5rem; background: #f4c430; color: #1a1a1a; border: none; border-radius: 6px; font-size: 1.1rem; font-weight: 600; cursor: pointer; font-family: var(--font-sans); transition: background 0.3s;">SUBSCRIBE</button>
         </form>
       </div>
@@ -157,5 +158,6 @@
   </footer>
 
   <script src="/js/menu.js"></script>
+  <script src="/js/forms.js"></script>
 </body>
 </html>

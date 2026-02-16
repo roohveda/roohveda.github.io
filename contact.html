@@ -50,11 +50,12 @@
         <!-- Contact Form -->
         <div>
           <h2 style="font-family: var(--font-serif); color: var(--primary); margin-bottom: 1.5rem;">Send us a Message</h2>
-          <form style="display: flex; flex-direction: column; gap: 1rem;">
-            <input type="text" placeholder="Your Name" style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-            <input type="email" placeholder="Your Email" style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-            <input type="text" placeholder="Subject" style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-            <textarea placeholder="Message" rows="6" style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans); resize: none;"></textarea>
+          <form id="contact-form" style="display: flex; flex-direction: column; gap: 1rem;" action="https://formspree.io/f/YOUR_CONTACT_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
+            <input type="email" name="email" placeholder="Your Email" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
+            <input type="text" name="subject" placeholder="Subject" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
+            <textarea name="message" placeholder="Message" rows="6" required style="padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans); resize: none;"></textarea>
+            <div id="form-message" style="display: none; padding: 0.75rem; border-radius: 4px; font-weight: 500;"></div>
             <button type="submit" class="btn" style="align-self: flex-start;">Send Message</button>
           </form>
         </div>
@@ -144,5 +145,6 @@
   </footer>
 
   <script src="/js/menu.js"></script>
+  <script src="/js/forms.js"></script>
 </body>
 </html>
