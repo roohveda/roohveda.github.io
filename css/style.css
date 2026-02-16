@@ -113,6 +113,25 @@ html, body {
   background: var(--bg-light);
 }
 
+/* Form Messages */
+#form-message,
+#newsletter-message,
+#about-newsletter-message,
+#courses-newsletter-message,
+#resources-newsletter-message {
+  border: 1px solid;
+}
+
+#form-message.success,
+#newsletter-message.success,
+#about-newsletter-message.success,
+#courses-newsletter-message.success,
+#resources-newsletter-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
