@@ -37,8 +37,9 @@ html, body {
 
 .header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .logo {
@@ -51,6 +52,7 @@ html, body {
 .nav {
   display: flex;
   gap: 2rem;
+  margin-left: auto;
 }
 
 .nav-link {
@@ -58,6 +60,31 @@ html, body {
   color: var(--text-dark);
   text-decoration: none;
   transition: color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+
+.nav-link svg,
+.footer-links a svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.home-icon {
+  width: 46px;
+  height: 46px;
+  display: block;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+}
+
+.home-link-mobile {
+  display: none;
+  align-items: center;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -447,6 +474,9 @@ html, body {
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .footer-links a:hover {
@@ -470,6 +500,15 @@ html, body {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .nav .home-icon {
+    display: none;
+  }
+
+  .home-link-mobile {
+    display: inline-flex;
+    margin-left: auto;
   }
 
   .header .container {
